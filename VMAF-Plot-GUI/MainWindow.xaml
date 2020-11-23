@@ -1,0 +1,17 @@
+﻿<Window x:Class="VMAF_Plot_GUI.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:VMAF_Plot_GUI"
+        mc:Ignorable="d"
+        Title="VMAF Plot GUI" Height="450" Width="670" ResizeMode="CanMinimize">
+    <Grid>
+        <Button x:Name="ButtonOpenSourceVideo" Content="Open Source Video" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Width="123" Height="32" Background="White"/>
+        <Button x:Name="ButtonOpenDistortedVideo" Content="Open Distorted Video" HorizontalAlignment="Left" Margin="138,10,0,0" VerticalAlignment="Top" Width="123" Height="32" Background="White"/>
+        <Button x:Name="ButtonCalculateVMAF" Content="Calculate VMAF" HorizontalAlignment="Left" Margin="266,10,0,0" VerticalAlignment="Top" Width="123" Height="32" Background="White" Click="ButtonCalculateVMAF_Click"/>
+        <Button x:Name="ButtonPlotGraph" Content="Plot Graph" HorizontalAlignment="Left" Margin="394,10,0,0" VerticalAlignment="Top" Width="123" Height="32" Background="White"/>
+        <Button x:Name="ButtonSaveGraph" Content="Save Graph" HorizontalAlignment="Left" Margin="522,10,0,0" VerticalAlignment="Top" Width="123" Height="32" Background="White"/>
+
+    </Grid>
+</Window>
